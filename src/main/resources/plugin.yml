@@ -1,0 +1,25 @@
+name: NhatNiemVinhHang
+version: '${project.version}'
+main: thegioitienhiep.nhatniemvinhhang.Main
+api-version: 1.18
+prefix: Nhat Niem Vinh Hang
+authors: [ thuongton999 ]
+description: Nhat niem thanh thuong hai, nhat niem hoa tang dien. Nhat niem tru nghin ma, nhat niem tram van tien. Duy ta niem, Vinh Hang!
+website: https://vutungminh.dev/mcplugins/thegioitienhiep-nhatniemvinhhang
+depend:
+  - GSit
+commands:
+  tuluyen:
+    description: Bắt đầu tu luyện
+    usage: Gõ /<command> để bắt đầu tu luyện (di chuyển để ngừng tu luyện)
+    aliases: tuluyen
+  thongtin:
+    description: Tra cứu thông tin người chơi (bằng id)
+    usage: |
+      Gõ /<command> để lấy thông tin của bản thân 
+      Gõ /<command> <id> để lấy thông tin của người chơi có id tương ứng
+    aliases: [thongtin, info]
+  vatpham:
+    description: Lấy vật phẩm từ hệ thống
+    usage: Go /<command> <item> <amount> để lấy vật phẩm từ hệ thống (nếu không điền số lượng thì sẽ lấy 1)
+    aliases: [vatpham, item]

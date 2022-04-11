@@ -1,0 +1,53 @@
+# DON'T CHANGE THIS FILE
+data:
+  cultivator:
+    folder: /data/cultivators
+    extension: tusi
+
+info:
+  console:
+    prefix: "&8[&bNhatNiemVinhHang&8] "
+  scoreboard:
+    display_name: "&6&l%name%"
+  item:
+    lore_prefix: "&6◈ &r"
+
+messages:
+  cultivation:
+    start: "Bắt đầu tu luyện"
+    finish: "Đã ngừng tu luyện"
+    breakthrough: "Đột phá cảnh giới"
+    obstacle:
+      main: "&lGặp bình cảnh"
+      sub: "&cKhông thể tiếp tục"
+    gain_exp: "&7Bạn nhận được &3%number% kinh nghiệm"
+  data:
+    saving: "&6Đang lưu dữ liệu của %name%"
+    loading: "&6Đang tải dữ liệu của %name%"
+    saved: "&a%name% đã được lưu"
+    loaded: "&a%name% đã được tải"
+  command:
+    not_have_permission: "&cBạn không có quyền sử dụng lệnh này"
+    not_enough_args: "&cSố lượng tham số không đủ"
+    invalid_args: "&cTham số không hợp lệ"
+    player_only: "&cChỉ có thể sử dụng lệnh này trong chế độ người chơi"
+    not_found: "&cKhông tìm thấy %name%"
+  item:
+    used: "&aBạn đã sử dụng &r%name%"
+  effect:
+    time_remain: "&7&lThời gian hiệu lực: &r%time%"
+
+sounds:
+  cultivation:
+    finish:
+      name: entity.experience_orb.pick_up
+      volume: 1.0
+      pitch: 1.0
+    obstacle:
+      name: block.bubble_column.whirlpool_inside
+      volume: 1.0
+      pitch: 1.0
+    breakthrough:
+      name: block.anvil.use
+      volume: 1.0
+      pitch: 1.0
